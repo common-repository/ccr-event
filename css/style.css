@@ -1,0 +1,72 @@
+
+#ccr-events {
+	margin-bottom: 20px;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	float: left;
+	max-width: 600px;
+	clear: both;
+}
+
+#ccr-events .ccr-event-content:first-child {
+	margin-top: 0;
+}
+#ccr-events .ccr-event-content, .ccr-content {
+	margin-top: 0px !important;
+}
+#ccr-events .ccr-event-content, .ccr-content {
+	overflow: hidden;
+	zoom: 1;
+}
+
+#ccr-events .ccr-event-date .ccr-day {
+	font-size: 3.0em;
+	font-weight: 700;
+	padding: 5px;
+	line-height: 1em;
+	display: block;
+}
+
+#ccr-events .ccr-content {
+	margin-right: 10px;
+}
+#ccr-events .ccr-event-date {
+	width: 80px;
+	height: 80px;
+	background: #1abc9c;
+	color: #FFF;
+	text-align: center;
+	font-family: 'Roboto' sans-serif;
+	float: left;
+	margin-right: 10px;
+	margin-top: 3px;
+}
+#ccr-events .ccr-month-year {
+	padding: 0 !important;
+	display: block;
+}
+
+#ccr-events .ccr-content h4 {
+	padding: 0 !important;
+	margin: 0 0 8px 0 !important;
+	font-size: 1.3em !important;
+	font-size: 18px !important;
+	text-transform: capitalize;
+}
+#ccr-events .ccr-content a {
+	text-decoration: none;
+}
+#ccr-events .ccr-event-content p {
+	margin-bottom: 15px;
+	line-height: 20px;
+}
+#ccr-events .ccr-content a:hover {
+	color: #636363 !important;
+	text-decoration: none;
+}
+#ccr-events a.ccr-register-link {
+	background: #e52c39;
+	color: #FFF;
+	padding: 10px;
+}
